@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200&family=Koulen&family=The+Nautigal:wght@400;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x:hidden ;
+    /* font-family: 'Koulen', cursive; */
+    /* font-family: 'Fira Sans', sans-serif; */
+   
+}
+#home{
+    /* height: calc(100% - 70px); */
+    margin: 100px 0px;
+}
+
+.nav-button{
+    border:3px solid #dc3545;
+    color: #dc3545;
+    transition: ease-out 0.2s;
+}
+
+.nav-button:hover{
+    border:3px solid #dc3545;
+    background-color: #dc3545;
+    color: white;
+}
+
+section{
+    margin-bottom: 50px;
+}
+.service-item .icon{
+    border: 2px solid #dc3545;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in-out 0.5s;
+}
+.service-item:hover .icon{
+    background-color: #dc3545;
+    color:white!important;
+}
+
+.contact-item i{
+    border: 2px solid #dc3545;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    margin: 0px auto; 
+    display: flex; 
+    float: left;
+    align-items: center; 
+    justify-content: center;
+    transition: ease-in-out 0.5s;
+}
+.contact-item:hover i{
+    background-color: #dc3545;
+    color:white!important;
+} 
+
+.info{
+    margin-bottom: 2px;
+}
+
+.contact-item .info h3, .contact-item .info p{
+padding: 0px 0px 0px 70px;
+}
+
+.portfolio .phover{
+    transition: shadow ease-out 0.5s;
+}
+
+.phover:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+
+
+.ser{
+    background-color: #d6d6c2;
+}
+.freelance{
+height: 450px;
+ }
