@@ -83,7 +83,8 @@
             <div class="home-text">
               <p class="text-muted mb-1">Hello I'm</p>
               <h1 class="text-danger text-uppercase fs-1 fw-bold">
-                Web Designer
+                <!-- Web Designer -->
+                <span class="typing"></span>
               </h1>
               <h2 class="fs-4">Sanket Kamble</h2>
               <p class="mt-4 text-muted p-0">
@@ -145,19 +146,22 @@
             </div>
             <div class="row">
               <div class="col-lg-12 d-flex align-items-center">
-                <a href="#" class="btn px-3 btn-danger mr-4">Download CV</a>
-                <div class="social-links">
-                  <a href="#" class="text-dark me-2"
+                <a href="./Assets/sanket_resume.png" target="_blank" class="btn px-3 btn-danger mr-4">Download CV</a>
+                <div class="social-links social d-flex justify-content-around">
+                  <a href="https://www.facebook.com/sanket.kamble.566148" target="_blank" class="text-dark me-2"
                     ><i class="fab fa-facebook-f"></i
                   ></a>
-                  <a href="#" class="text-dark me-2"
+                  <a href="https://twitter.com/Sankuu21"target="_blank" class="text-dark me-2"
                     ><i class="fab fa-twitter"></i
                   ></a>
-                  <a href="#" class="text-dark me-2"
+                  <a href="https://www.instagram.com/sankuu_kamble/"target="_blank" class="text-dark me-2"
                     ><i class="fab fa-instagram"></i
                   ></a>
-                  <a href="#" class="text-dark me-2"
+                  <a href="https://www.linkedin.com/in/sanketkamble/"target="_blank" class="text-dark me-2"
                     ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                  <a href="https://github.com/sanketkamble21"target="_blank" class="text-dark me-2"
+                    ><i class="fab fa-github"></i
                   ></a>
                 </div>
               </div>
@@ -251,7 +255,7 @@
           </div>
         </div>
         <div class="row text-center">
-          <div class="col-md-6 col-lg-4 mb-5 " data-aos="fade-right" data-aos-delay="400">
+          <div class="col-md-6 col-lg-4 mb-5 " data-aos="fade-left" data-aos-delay="300">
             <div class="service-item shadow-sm p-4 rounded bg-white">
               <div class="icon my-3 text-danger">
                 <i class="fas fa-code"></i>
@@ -263,7 +267,7 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-4 mb-5 " data-aos="fade-up" data-aos-delay="400">
+          <div class="col-md-6 col-lg-4 mb-5 " data-aos="fade-left" data-aos-delay="400">
             <div class="service-item shadow-sm p-4 rounded bg-white">
               <div class="icon my-3 text-danger">
                 <i class="fas fa-lightbulb"></i>
@@ -275,7 +279,7 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-4 mb-5 " data-aos="fade-left" data-aos-delay="400">
+          <div class="col-md-6 col-lg-4 mb-5 " data-aos="fade-left" data-aos-delay="500">
             <div class="service-item shadow-sm p-4 rounded bg-white">
               <div class="icon my-3 text-danger">
                 <i class="fas fa-image"></i>
@@ -303,7 +307,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-6 col-lg-4 phover mb-4" data-aos="fade-right" data-aos-delay="400">
+          <div class="col-md-6 col-lg-4 phover mb-4" data-aos="fade-right">
             <div class="portfolio-item text-center">
               <img
                 src="/Assets/Team.jpg"
@@ -530,6 +534,20 @@
       </div>
     </footer>
     <!-- footer end here  -->
+
+     <!-- motion text -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11 "></script>
+    <script>
+        var typed = new Typed(".typing ", {
+            strings: ["A Web Developer ", "Enthusiastic ", "Designer ",
+                "Full Stack Developer "
+            ],
+
+            typeSpeed: 40,
+            backSpeed: 25,
+            loop: true,
+        });
+    </script>
 
     <!-- AOS js -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

@@ -13,6 +13,7 @@ body{
     margin: 100px 0px;
 }
 
+/* navigation start */
 .nav-button{
     border:3px solid #dc3545;
     color: #dc3545;
@@ -24,6 +25,14 @@ body{
     background-color: #dc3545;
     color: white;
 }
+
+/* navigation end */
+
+/* about */
+.social{
+    width: 25%;
+}
+/* Service start */
 
 section{
     margin-bottom: 50px;
@@ -43,6 +52,12 @@ section{
     background-color: #dc3545;
     color:white!important;
 }
+
+.ser{
+    background-color: #d6d6c2;
+}
+
+/* Service end */
 
 .contact-item i{
     border: 2px solid #dc3545;
@@ -69,6 +84,8 @@ section{
 padding: 0px 0px 0px 70px;
 }
 
+/* project section */
+
 .portfolio .phover{
     transition: shadow ease-out 0.5s;
 }
@@ -77,11 +94,9 @@ padding: 0px 0px 0px 70px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
+/* project section end*/
 
 
-.ser{
-    background-color: #d6d6c2;
-}
 .freelance{
 height: 450px;
  }
